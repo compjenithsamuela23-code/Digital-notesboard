@@ -1,0 +1,72 @@
+{
+  "announcements": [
+    {
+      "id": "id_1770826098075_zrp9b2unl",
+      "title": "HI",
+      "content": "HI",
+      "priority": 1,
+      "duration": 7,
+      "isActive": true,
+      "category": "id_1770825845368_idm9rrapb",
+      "image": "/uploads/1770826098062-305434175.jpg",
+      "type": "mixed",
+      "createdAt": "2026-02-11T16:08:18.075Z",
+      "expiresAt": "2026-02-24T09:40:04.582Z",
+      "startAt": "2026-02-17T09:40:04.582Z",
+      "endAt": "2026-02-24T09:40:04.582Z",
+      "updatedAt": "2026-02-17T09:40:10.066Z"
+    },
+    {
+      "id": "id_1770869380259_p6urwxtav",
+      "title": "hi",
+      "content": "hi",
+      "priority": 1,
+      "duration": 7,
+      "isActive": true,
+      "category": null,
+      "image": "/uploads/1770869380253-193182136.jpg",
+      "type": "mixed",
+      "createdAt": "2026-02-12T04:09:40.259Z",
+      "expiresAt": "2026-02-24T09:40:14.281Z",
+      "startAt": "2026-02-17T09:40:14.281Z",
+      "endAt": "2026-02-24T09:40:14.281Z",
+      "updatedAt": "2026-02-17T09:45:23.419Z"
+    },
+    {
+      "id": "id_1771321220862_pbi2anrs0",
+      "title": "TITLE",
+      "content": "CONTENT",
+      "priority": 1,
+      "duration": 7,
+      "isActive": true,
+      "category": null,
+      "image": null,
+      "type": "text",
+      "createdAt": "2026-02-17T09:40:20.862Z",
+      "startAt": "2026-02-17T04:07:00.000Z",
+      "endAt": "2026-02-24T04:07:00.000Z",
+      "expiresAt": "2026-02-24T04:07:00.000Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "id_1770825845368_idm9rrapb",
+      "name": "STUDENT",
+      "createdAt": "2026-02-11T16:04:05.368Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "id_1770271209531_i2vlau2qo",
+      "email": "admin@noticeboard.com",
+      "password": "admin123",
+      "role": "admin",
+      "createdAt": "2026-02-05T06:00:09.531Z"
+    }
+  ],
+  "live": {
+    "status": "ON",
+    "link": "https://youtu.be/fKtz9dFLFYo",
+    "startedAt": "2026-02-17T09:40:25.459Z"
+  }
+}
