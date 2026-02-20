@@ -99,7 +99,7 @@ If frontend and backend are hosted on different domains, set frontend env:
 
 Deploy as two Vercel projects from the same repo:
 - Backend project root: `digital-notice-board/server`
-- Frontend project root: repository root (uses `vercel.json` to build `digital-notice-board/client`)
+- Frontend project root: `digital-notice-board/client`
 
 1. Prepare Supabase:
    - Run `digital-notice-board/server/supabase/schema.sql` in Supabase SQL Editor.
@@ -116,7 +116,7 @@ Deploy as two Vercel projects from the same repo:
    - After deploy, verify:
    - `https://your-backend-domain.vercel.app/api/health`
 3. Deploy frontend (Vercel project #2):
-   - Root Directory: repo root
+   - Root Directory: `digital-notice-board/client`
    - Set env vars:
    - `VITE_API_BASE_URL=https://your-backend-domain.vercel.app`
    - `VITE_ENABLE_SOCKET=false` (recommended on Vercel backend; polling fallback is enabled)
@@ -126,4 +126,4 @@ Deploy as two Vercel projects from the same repo:
 Note for Vercel backend uploads:
 - API upload requests are capped for serverless runtime; this backend enforces a 4MB request file limit on Vercel.
 
-If you see `404: NOT_FOUND` on frontend routes like `/admin`, ensure root `vercel.json` is included in the deployment (SPA rewrite to `index.html`).
+If you see `404: NOT_FOUND` on frontend routes like `/admin`, ensure `digital-notice-board/client/vercel.json` is present (SPA rewrite to `index.html`).
